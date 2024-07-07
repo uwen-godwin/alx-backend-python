@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""
-A module for basic variable annotations.
-"""
+"""Module that has a function which converts a float into a string"""
+
 
 def to_str(n: float) -> str:
-    """
-    Returns the string representation of the float.
-    """
+    """Converts a float point number into a string via Typecasting"""
     return str(n)
