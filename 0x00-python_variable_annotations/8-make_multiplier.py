@@ -10,7 +10,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         return x * multiplier
     return multiply
 
-# Example usage
 if __name__ == "__main__":
     times_three = make_multiplier(3.0)
     print(times_three(10)) 
