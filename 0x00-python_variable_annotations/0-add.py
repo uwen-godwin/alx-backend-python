@@ -1,18 +1,7 @@
 #!/usr/bin/env python3
-"""
-Module for basic annotations - add.
-This module contains a function that adds two floating-point numbers.
-"""
+"""Python Annotations and learning how to implement how to use declare types"""
+
 
 def add(a: float, b: float) -> float:
-    """
-    Function to add two floats.
-    
-    Args:
-    a (float): The first float.
-    b (float): The second float.
-    
-    Returns:
-    float: The sum of a and b.
-    """
+    """returns the sum of two float point number"""
     return a + b
