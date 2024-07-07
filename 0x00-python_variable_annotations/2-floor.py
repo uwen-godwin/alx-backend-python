@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
-"""
-A module for basic variable annotations.
-"""
+"""Used the float annotation to create a function that return a floor"""
 
-import math
 
 def floor(n: float) -> int:
-    """
-    Returns the floor of the float.
-    """
-    return math.floor(n)
+    """Round up float Point number to Int"""
+    n: int = int(n)
+    return n
