@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""function make_multiplier that takes a float multiplier as argument
-and returns a function that multiplies a float by multiplier."""
-from typing import Callable
+"""function sum_mixed_list which takes a list mxd_lst of integers
+and floats and returns their sum as a float."""
+from typing import Union, List
 
 
-def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """ function make_multiplier that takes a float multiplier as argument"""
-    def multiply(x: float) -> float:
-        return multiplier * multiplier
-    return multiply
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """takes a list mxd_lst of integers
+    and floats and returns their sum as a float.
+    """
+    count: int | float = 0
+    for i in mxd_lst:
+        count += i
+    return count
