@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-"""
-A module for safe first element retrieval.
-"""
+'''Augment the following code with the correct duck-typed annotations:'''
+from typing import Sequence, Union, Any
 
-from typing import Sequence, Any, Union
 
-def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-    """
-    Returns the first element of a sequence if it exists, else None.
-    """
+def safe_first_element(lst: Sequence[Any]) -> Union[Any]:
+    '''Augment the following code with the correct duck-typed annotations:'''
     if lst:
         return lst[0]
     else:
