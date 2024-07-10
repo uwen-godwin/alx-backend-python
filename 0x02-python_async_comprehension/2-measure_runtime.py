@@ -2,7 +2,6 @@
 """
 measure_runtime should measure the total runtime and return it.
 """
-
 import asyncio
 import time
 from typing import List
@@ -12,8 +11,8 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     """
-    Measure the total time it takes to run async_comprehension four times in parallel.
-    
+    Measure the total time it takes to run async_comprehension
+    four times in parallel.
     Returns:
         float: The total runtime.
     """
