@@ -2,7 +2,6 @@
 """
 measure_runtime should measure the total runtime and return it.
 """
-
 import asyncio
 import time
 from typing import List
