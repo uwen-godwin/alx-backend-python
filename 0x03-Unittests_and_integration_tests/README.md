@@ -41,9 +41,11 @@ Install the required packages:
 Usage
 Running Tests
 To run all tests, execute the following command:
+
   python3 -m unittest discover
 
 To run individual test files:
+
   python3 test_utils.py 
   python3 test_client.py
 
