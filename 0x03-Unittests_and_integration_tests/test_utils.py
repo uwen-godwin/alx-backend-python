@@ -1,10 +1,11 @@
- #!/usr/bin/env python3
-"""Parametired a unittest"""
+#!/usr/bin/env python3
+"""Parameterized unittest"""
 import unittest
 from typing import Any, Dict, Mapping, Sequence
 from unittest.mock import Mock, patch
 
 from parameterized import parameterized
+import requests
 
 from utils import access_nested_map, get_json, memoize
 
@@ -48,7 +49,7 @@ class TestGetJson(unittest.TestCase):
             payload (dict): return dict from url requests
         """
         with patch("utils.requests.get") as mock_get:
-            mock_obj = Mock(autospec=Request)
+            mock_obj = Mock(autospec=requests.Response)
             mock_obj.json.return_value = test_payload
             mock_get.return_value = mock_obj
             self.assertEqual(get_json(test_url), test_payload)
