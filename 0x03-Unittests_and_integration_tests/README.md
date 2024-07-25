@@ -32,20 +32,21 @@ This project focuses on writing unit tests in Python. It covers essential testin
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/alx-backend-python.git
+   git clone https://github.com/uwen-godwin/alx-backend-python.git
    cd alx-backend-python
 
 Install the required packages:
   pip install requests parameterized
 
-Usage
-Running Tests
-To run all tests, execute the following command:
+## Usage
 
+Running Tests
+  To run all tests, execute the following command:
+```sh
   python3 -m unittest discover
 
 To run individual test files:
-
-  python3 test_utils.py 
-  python3 test_client.py
+```sh
+python3 test_utils.py 
+python3 test_client.py
 
