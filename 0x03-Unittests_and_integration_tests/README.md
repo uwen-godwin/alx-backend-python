@@ -49,8 +49,9 @@ Running Tests
   ```sh
      python3 -m unittest discover
     
-To run individual test files:
-    ```sh
+## To run individual test 
+  files:
+   ```sh
       python3 test_utils.py 
       python3 test_client.py
 
