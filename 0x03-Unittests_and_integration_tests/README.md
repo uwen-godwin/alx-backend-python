@@ -38,12 +38,15 @@ This project focuses on writing unit tests in Python. It covers essential testin
 Install the required packages:
   pip install requests parameterized
 
+
+
 ## Usage
 
 Running Tests
   To run all tests, execute the following command:
 ```sh
   python3 -m unittest discover
+
 
 To run individual test files:
 ```sh
