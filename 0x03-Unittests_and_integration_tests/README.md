@@ -48,10 +48,5 @@ Running Tests
   To run all tests, execute the following command:
   ```sh
      python3 -m unittest discover
-    
-## To run individual test 
-  files:
-   ```sh
-      python3 test_utils.py 
-      python3 test_client.py
+ 
 
